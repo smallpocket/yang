@@ -1,0 +1,13 @@
+﻿  arraylink.c
+d:\agithub\mynote\c_datestructure\c_datestructure\arraylink.c(11): warning C4013: “initlinklist”未定义；假设外部返回 int
+d:\agithub\mynote\c_datestructure\c_datestructure\arraylink.c(16): warning C4013: “destroylist”未定义；假设外部返回 int
+d:\agithub\mynote\c_datestructure\c_datestructure\arraylinkcode.h(27): warning C4716: “ClearList”: 必须返回一个值
+d:\agithub\mynote\c_datestructure\c_datestructure\arraylinkcode.h(57): warning C4715: “PriorElem”: 不是所有的控件路径都返回值
+d:\agithub\mynote\c_datestructure\c_datestructure\arraylinkcode.h(63): warning C4715: “NextElem”: 不是所有的控件路径都返回值
+ArrayStack.obj : error LNK2005: _DilatationList 已经在 arraylink.obj 中定义
+ArrayStack.obj : error LNK2005: _NodeAllocFailure 已经在 link.obj 中定义
+ArrayStack.obj : error LNK2005: _Push 已经在 bracket.obj 中定义
+arraylink.obj : error LNK2019: 无法解析的外部符号 _initlinklist，该符号在函数 _main 中被引用
+arraylink.obj : error LNK2019: 无法解析的外部符号 _destroylist，该符号在函数 _main 中被引用
+bracket.obj : error LNK2019: 无法解析的外部符号 _InitStack，该符号在函数 _DetectExp 中被引用
+D:\AGithub\MyNote\C_DateStructure\Debug\C_DateStructure.exe : fatal error LNK1120: 3 个无法解析的外部命令
